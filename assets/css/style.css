@@ -1,0 +1,146 @@
+
+header {
+	background-color: #cccccc;
+}
+
+nav {
+	text-align: right;
+	width: 270px;
+	padding: 2%;
+
+}
+
+a {
+	color: #777777;
+	padding: 5px;
+	text-decoration: none;
+}
+
+body {
+	width: 960px;
+	background-image: url("cork-wallet.png");
+	background-size: 960px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin-top: 0;
+}
+
+section {
+	width: 650px;
+	margin-left: 100px;
+	background-color: #ffffff;
+	clear: both;
+	color: #777777;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	float: left;
+	padding-bottom: 25px;
+}
+
+aside {
+	float: left;
+	width: 270px;
+	background-color: #ffffff;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 10px;
+	font-size: 12px;
+	height: 150px;
+}
+
+h1 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	border-bottom: solid;
+	border-color: #dddddd;
+	font-size: 24px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	border-bottom: solid;
+	border-color: #dddddd;
+	font-size: 20px;
+}
+
+footer {
+	background-color: #666666;
+	text-align: center;
+	padding: 25px;
+	border-top: 5px solid #4aaaa5;
+	clear: both;
+	color: #777777;
+}
+
+.text {
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 1.5%;
+	padding-bottom: 1%;
+}
+
+.size	{
+	height: 30%;
+	width: auto;
+	margin-top: 10%;
+}
+
+.space {
+	padding: 10px;
+}
+
+#bio-image {
+	float: left;
+	width: 200px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 5%;
+}
+
+#header {
+	width: 20%;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin-left: 100px;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+#topsection {
+	background-color: #ffffff;
+	border-bottom: 2.5px solid #cccccc;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+}
+
+#socialposition {
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+}
+
+span {
+	display: inline-block;
+	width: 0;
+	height: 0.75em;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+}
+
+#first {
+	margin-top: 5%;
+	padding-bottom: 1%;
+}
